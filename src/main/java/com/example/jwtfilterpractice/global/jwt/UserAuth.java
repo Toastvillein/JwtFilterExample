@@ -1,6 +1,7 @@
 package com.example.jwtfilterpractice.global.jwt;
 
-import jakarta.persistence.GeneratedValue;
+import com.example.jwtfilterpractice.user.entity.UserRole;
+
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 
@@ -8,4 +9,5 @@ import lombok.RequiredArgsConstructor;
 @RequiredArgsConstructor
 public class UserAuth {
 	private final Long id;
+	// private final UserRole.USER;
 }
