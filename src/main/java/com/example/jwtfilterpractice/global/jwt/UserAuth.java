@@ -9,5 +9,5 @@ import lombok.RequiredArgsConstructor;
 @RequiredArgsConstructor
 public class UserAuth {
 	private final Long id;
-	// private final UserRole.USER;
+	// private final UserRole userRole;
 }

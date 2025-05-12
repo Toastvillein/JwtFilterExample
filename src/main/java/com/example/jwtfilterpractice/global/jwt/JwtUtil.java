@@ -38,7 +38,7 @@ public class JwtUtil {
 			.parseClaimsJws(token)
 			.getBody();
 
-		return new UserAuth(Long.parseLong(claims.getSubject())); //,UserRole.valueOf(body.get("role",String.class))
+		return new UserAuth(Long.parseLong(claims.getSubject())); //,UserRole.valueOf(body.get("userRole",String.class))
 	}
 
 	public boolean validateToken(String token){
